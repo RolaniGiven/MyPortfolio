@@ -16,7 +16,10 @@ const Aboutme = () => {
                 
                 
                 <div className="overlay-text1">
-                  About Me Page Works!
+                  <h1>As Software Dev</h1>
+                  I mainly focus on Backend and Frontend Development, I am also open to Version Control/Git,DevOps,Web Security,Testing and Debugging as well Continuous Learning.
+        
+
                 </div> 
 
                 
