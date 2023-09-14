@@ -1,8 +1,15 @@
 import React from 'react';
-import './Aboutme.css'
+import './Aboutme.css';
+import {  Link } from "react-router-dom";
 
 const Aboutme = () => {
-    
+     
+    const linkStyle = {
+        color: 'White', // Set the color to black
+        textDecoration: 'none', // Remove underlines from the links
+       
+    };
+
     return (
       <div className='container'>
           <body className='mybody'>
@@ -16,11 +23,17 @@ const Aboutme = () => {
                 
                 
                 <div className="overlay-text1">
-                  <h1>As Software Dev</h1>
-                  I mainly focus on Backend and Frontend Development, I am also open to Version Control/Git,DevOps,Web Security,Testing and Debugging as well Continuous Learning.
-        
-
+                  <h1>Rolani Maluleka</h1>
+                  <h1> Jnr Full-Stack Dev</h1>
+                  I am professional UI/UX designer with front-end and back-end development skills based in Johannesburg.
+                  I have an experience of 6 months in developing responsive web application that are user friendly.
+          
+  
                 </div> 
+
+                <div className="overlay-text-btn">
+                <button type="button" class="btn btn-outline-light" ><Link to="/contact" style={linkStyle}>Contact Me</Link></button>
+                </div>
 
                 
             
