@@ -1,0 +1,25 @@
+
+
+      .overlay-text1 {
+          position: absolute;
+          top: 50%; /* Position text vertically in the middle */
+          left: 50%; /* Position text horizontally in the middle */
+          transform: translate(-50%, -50%); /* Center text both horizontally and vertically */
+          color: rgb(255, 255, 255); /* Text color */
+          font-weight: normal;
+          text-align: center;
+          font-size: 24px; /* Adjust the font size as needed */
+          background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+          padding: 10px 20px; /* Add padding to the text */
+          padding-top: 1rem;
+          border-radius: 5px; /* Rounded corners for the text container */
+          height: 70%;
+          width: 93%;
+          border-radius: 2%;
+          .overlay-text1{
+              font-weight: lighter;
+          }
+      }
+
+      
+    

@@ -26,8 +26,8 @@ const Home = () => {
                     onInit={(typewriter) => {
                         typewriter
                             .typeString("HEY, I'M ROLANI MALULEKA")
-                            .pauseFor(1000)
-                            .typeString(" I'M A SOFTWARE DEVELOPER")
+                            .pauseFor(500)
+                            .typeString(" I'M A JUNIOR FULL-STACK DEVELOPER")
                             .start();
                     }}
                 />

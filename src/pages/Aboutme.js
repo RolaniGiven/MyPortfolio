@@ -9,22 +9,15 @@ const Aboutme = () => {
           <body className='mybody'>
                 <img className="image-container"
                     alt=""
-                    src={'./assets/WhatsApp Image 2023-09-06 at 13.49.00.jpeg'} 
+                    src={'./assets/aboutme.jpeg'} 
                 
                 />
                 
                 
                 
-                {/* <div className="overlay-text"><Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .typeString("HEY, I'M ROLANI MALULEKA")
-                            .pauseFor(1000)
-                            .typeString(" I'M A SOFTWARE DEVELOPER")
-                            .start();
-                    }}
-                />
-                </div> */}
+                <div className="overlay-text1">
+                  About Me Page Works!
+                </div> 
 
                 
             

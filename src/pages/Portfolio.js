@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
       <div className='container'>
           <body className='mybody'>
-          <h1>Portfolio</h1>
+          <h1>Portfolio Page Works!</h1>
           
           </body>
 
