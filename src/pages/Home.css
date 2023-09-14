@@ -1,0 +1,86 @@
+.mybody{
+    height: 80vh;
+    width: 100%;
+    background-color: #d9dadc;
+    border-radius: 2%;
+    
+    
+    .image-container{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        border-radius: 2%;
+        position: relative;
+        display: inline-block;
+      }
+
+      .overlay-text {
+          position: absolute;
+          top: 50%; /* Position text vertically in the middle */
+          left: 50%; /* Position text horizontally in the middle */
+          transform: translate(-50%, -50%); /* Center text both horizontally and vertically */
+          color: rgb(255, 255, 255); /* Text color */
+          font-weight: bolder;
+          text-align: center;
+          font-size: 24px; /* Adjust the font size as needed */
+          background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+          padding: 10px 20px; /* Add padding to the text */
+          padding-top: 1rem;
+          border-radius: 5px; /* Rounded corners for the text container */
+          height: 18%;
+          width: 93%;
+          border-radius: 2%;
+          .overlay-text1{
+              font-weight: lighter;
+          }
+      }
+
+      .overlay-text-btn {
+          position: absolute;
+          top: 75%; /* Position text vertically in the middle */
+          left: 50%; /* Position text horizontally in the middle */
+          transform: translate(-50%, -50%); /* Center text both horizontally and vertically */
+          color: white; /* Text color */
+          font-size: 24px; /* Adjust the font size as needed */
+          /*background-color: rgba(0, 0, 0, 0.5);  Background color with transparency */
+          padding: 10px 20px; /* Add padding to the text */
+          border-radius: 5px; /* Rounded corners for the text container */
+      }
+    
+}
+
+.myFooter{
+    margin-top: 3%;
+    
+    .messenger{
+        padding-left: 25%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        
+    }
+   
+
+    .instagram{
+        margin-left: 1rem;
+        margin-right: 1rem;
+       
+    }
+
+    .facebook{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+
+    .twitter{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+
+    .copyright{
+        padding-top: 3%;
+        padding-left: 15%;
+    }
+}

@@ -1,0 +1,62 @@
+.cellphone{
+    background-color:  #dadbdc;
+    height: 20%;
+    gap: 1rem;
+    text-align:  center;
+    margin-left: 2rem;
+    width: 40%;
+    
+}
+
+.center-card {
+    
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items:baseline;/* Vertically center the card */
+    height: 20%; /* Make sure the container takes up the full height of the body */
+}
+
+.center-header{
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items: center; /* Vertically center the card */
+    height: 100%; /* Make sure the container takes up the full height of the body */
+}
+
+.center-title{
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items: center; /* Vertically center the card */
+    height: 100%;
+}
+
+.center-text{
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items: center; /* Vertically center the card */
+    height: 100%;
+}
+
+.center-card2 {
+    margin-top: 2rem;
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items:baseline;/* Vertically center the card */
+    height: 20%; /* Make sure the container takes up the full height of the body */
+}
+
+.center-card3 {
+    margin-top: 2rem;
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items:baseline;/* Vertically center the card */
+    height: 20%; /* Make sure the container takes up the full height of the body */
+}
+
+.center-card4 {
+    margin-top: 2rem;
+    display: flex; /* Step 2: Use Flexbox to center the card horizontally and vertically */
+    justify-content: center; /* Horizontally center the card */
+    align-items:baseline;/* Vertically center the card */
+    height: 20%; /* Make sure the container takes up the full height of the body */
+}
