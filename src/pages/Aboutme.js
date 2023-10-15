@@ -25,8 +25,9 @@ const Aboutme = () => {
                 <div className="overlay-text1">
                   <h1>Rolani Maluleka</h1>
                   <h1> Jnr Full-Stack Dev</h1>
-                  I am professional UI/UX designer with front-end and back-end development skills based in Johannesburg.
-                  I have an experience of 6 months in developing responsive web application that are user friendly.
+                  I am a professional junior developer with a strong ambition to create innovative solutions for complex global challenges. 
+                  My approach centers on leveraging technology, emphasizing user-friendly UI/UX design on the front end and robust back-end development. 
+                  I am currently based in Johannesburg and have gained 6 months of experience in developing responsive web applications.
           
   
                 </div> 
@@ -34,6 +35,8 @@ const Aboutme = () => {
                 <div className="overlay-text-btn">
                 <button type="button" class="btn btn-outline-light" ><Link to="/contact" style={linkStyle}>Contact Me</Link></button>
                 </div>
+
+                
 
                 
             

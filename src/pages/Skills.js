@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import ProgressBar from "@ramonak/react-progress-bar";
 import './Skills.css'
 
@@ -14,28 +14,47 @@ const Skills = () => {
             <body className='mybody'>
             <h1>My Set of skills</h1>
                 <div style = {mainDiv}>
+               
+                <div className='frameworks'>
+                       <h2>Frameworks</h2>
+                </div>
 
                 <div className='skillsIcon'>
                 <div class="icons8-node-js"></div>
-                <div class="icons8-angularjs"></div>
+                <div class="icons8-angular"></div>
                 <div class="icons8-react-js"></div>
                 </div>
-                <ProgressBar completed = {65} animateOnRender = {true} bgColor = "black" baseBgColor="white" className="progressBar" />
+        
                 <br></br>
 
+
+                <div className='Databases'>
+                       <h2>Databases</h2>
+                </div>
                 <div className='skillsIcon2'>
                 <div class="icons8-postgresql"></div>
+                <div class="icons8-mongodb"></div>
                 </div>
-                <ProgressBar completed = {75} animateOnRender = {true} bgColor = "black" baseBgColor="white" className="progressBar" />
                 <br></br>
+
+
+                <div className='others'>
+                       <h2>Other Skills & Languages</h2>
+                </div>
 
                 <div className='skillsIcon3'>
                 <div class="icons8-html"></div>
                 <div class="icons8-css"></div>
                 <div class="icons8-javascript"></div>
                 </div>
-                <ProgressBar completed = {80} animateOnRender = {true} bgColor = "black" baseBgColor="white" className="progressBar" />
                 <br></br>
+
+                <div className='skillsIcon4'>
+                <div class="icons8-cPlusPlus"></div> 
+                <div class="icons8-bootstrap"></div>   
+                <div class="icons8-tailwindcss"></div>
+                </div>
+                
 
 
                
